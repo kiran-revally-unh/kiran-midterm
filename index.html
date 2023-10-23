@@ -5,56 +5,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My Website</title>
   <link rel="stylesheet" href="styles.css">
-    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <header>
-    
-    <nav>   
+    <div class="topnav" id="myTopnav">
       <a href="#about">About Me</a>
-      <a href="#mypapers">My Papers</a>
-      <a href="#hobbies">Hobbies</a>
-      <a href="#photogallery">Gallery</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
       <a href="#blogs">Blogs</a>
-    </nav>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
   </header>
   <main>
 
     <div id="about">
       <div id="aboutProfile">
       <h2>About Me</h2>
-      <div><img src="images/EinsteinProfile.png" alt="This is my profile" width="200" height="200" > </div>
-      <div style="width: 264px;"><p> Name: Albert Einstein<br>
-        Date of Birth: March 14, 1879 <br>
-       </p></div>
+      <div><img style="width: 200px" src="images/profile.jpg" alt="This is my profile" > </div>
+      <div style="width: 264px;"><p> NAME: Kiran Revally <br>
+        EMAIL : Kreva1@unh.newhaven.edu <br>
+        Ph No: +123456789 </p></div>
   
       </div>
-      <div class="AboutText" style="padding-top: 50px;">
-
-        <h2>Albert Einstein - A Visionary in Science</h2>
-        
-
-<p>I am Albert Einstein, a name often associated with groundbreaking scientific discoveries and revolutionary contributions to the world of physics. Born on March 14, 1879, in Ulm, Germany, I embarked on a journey that would forever alter our understanding of the universe.
-<br><br>
-My passion for unraveling the mysteries of the cosmos led me to develop the theory of relativity, a concept that transformed the field of theoretical physics. It introduced the world to the famous equation E=mc², highlighting the interconnectedness of energy and mass and laying the foundation for modern physics.
-<br><br>
-Throughout my life, I've been driven by an insatiable curiosity and a deep desire to explore the fundamental principles of nature. Beyond my scientific pursuits, I have advocated for peace, civil rights, and education, recognizing the importance of knowledge and compassion in shaping a better world. My legacy continues to inspire generations of scientists, thinkers, and dreamers to push the boundaries of human knowledge and strive for a more enlightened future.
-</p>
+      <div style="padding-top: 50px;">
+      <p>Hello! I'm Revally Kiran, a passionate and driven computer science enthusiast currently pursuing my Master's degree at the esteemed University of New Haven.
+        As a passionate UI developer, I combine creativity and technical expertise to craft user interfaces that are not only visually stunning but also highly functional.
+        In the realm of software development, <br>
+        <br>I proudly stand as a dedicated programmer with an unwavering commitment to pushing the boundaries of technological innovation. 
+        My love for coding, coupled with my insatiable curiosity about the inner workings of technology, has shaped me into not just a software developer but a visionary driving the digital revolution.
+        My journey in software development began with an insatiable thirst for knowledge.</p>
     </div>  
     </div>
 
     <hr style="height: 8px;background: black;">
+    <div id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>Masters in Computer Science From University of new Haven </li><br>
+        <li>BE (CSE) from MVSR Engineering College – Osmania University, Hyderabad. Passed </li>
+       
+      </ul> 
+      </div>
+      <hr style="height: 8px;background: black;">
+      <div id="projects"> 
 
-      <div id="mypapers"> 
-
-        <h2>My Papers</h2>
+        <h2>Projects</h2>
           <div class="box">   
               <div class="grandparent" >
                   <div class="parent">
-                      <img src="images/specialtheory.jpg"  alt="about my project1">
-                      <h2> Special Theory of Relativity (1905):</h2>
+                      <img src="images/project1.jpg"  alt="about my project1">
+                      <h2> Miors Delivery</h2>
                       <ul>
-                        <li>In this groundbreaking paper, Einstein introduced the theory of special relativity, challenging our fundamental understanding of time and space. The famous equation E=mc^2 emerged from this work, demonstrating the equivalence of mass and energy.</li>                       
+                        <li>Attend Daily stand-up meetings (Scrum), Estimation meetings and Requirement review</li>
+                        <li>meetings to analyse requirements and to know requrirement for each story card in a sprint.</li>
+                       
                       </ul> 
                   </div>
               </div>
@@ -62,22 +71,27 @@ Throughout my life, I've been driven by an insatiable curiosity and a deep desir
           <div class="box">   
               <div class="grandparent" >
                   <div class="parent">
-                      <img src="images/generaltheory.png"  alt="about my project2">
-                      <h2> General Theory of Relativity (1915)</h2>
+                      <img src="images/project2.jpg"  alt="about my project2">
+                      <h2> AIEP</h2>
                       <ul>
-                        <li>  Einstein's theory of general relativity expanded upon the special theory, providing a new perspective on gravity. It introduced the concept of spacetime curvature, explaining how massive objects like stars and planets influence the fabric of the universe.</li>
-                      </ul>  
+                        <li>Designed and implemented a dashboard for storing, editing and accessing the data by
+                          multiple users at an instance.</li>
+                        <li>Used React JS for creating reusable UI components.which is helpful</li>
+                        
+                      </ul> 
                   </div>
               </div>
           </div>
           <div class="box">  
                <div class="grandparent" >
                   <div class="parent">
-                      <img src="images/photoelectric.jpg"  alt="about my project3">
-                      <h2> Photoelectric Effect Paper (1905)</h2>
+                      <img src="images/project3.jpg"  alt="about my project3">
+                      <h2> RTR</h2>
                       <ul>
-                        <li>This paper explored the photoelectric effect, demonstrating that light can behave as both particles (photons) and waves. This work laid the foundation for quantum mechanics.In his research, Einstein investigated the behavior of light when it interacts with matter</li>                 
-                      </ul> 
+                        <li>Developed client side drop down menus, search bars and drop down toggles.</li>
+                        <li>Developed multiple POCs to create a user interface in Angular JS.Responsible for parsing JSON</li>
+                 
+                      </ul>  
                      
                   </div>
               </div> 
@@ -85,87 +99,50 @@ Throughout my life, I've been driven by an insatiable curiosity and a deep desir
       </div>
 
     <hr style="height: 8px;background: black;">
+  
+  
+  <div id="experience">
+    <h2>Experience</h2>
+      <ul>
+        <li>Worked as Senior UI/Web Developer in Tech Mahindra, Bangalore. Nov  2020 - Oct  2022</li> <br>
+        <li>Worked as Software developer in Accenture form Oct `2017- Oct`2020 </li>
+       
+      </ul> 
+  
+    </div>
+  <hr style="height: 8px;background: black;">
 
-      <div id="hobbies">
-        <h2>Hobbies</h2>
-        <ul>
-          <li>Playing the Violin: Einstein was an accomplished violinist. He began playing the violin at a young age and continued to enjoy music throughout his life. He often found solace and inspiration in playing the violin, and he even said that if he hadn't become a physicist, he would have become a musician.          </li><br>
-          <li>Sailing: Einstein had a love for sailing, and he often sailed on the Swiss lakes during his time in Switzerland. He found relaxation and a sense of freedom while sailing, which provided a nice contrast to his intense intellectual work.</li> <br>
-          <li>Travel: Einstein was a well-traveled individual. He visited many countries and continents throughout his life, both for scientific conferences and personal enjoyment. His travels allowed him to meet other intellectuals and gain diverse perspectives.</li> <br>
-          <li>Reading and Philosophy: Einstein had a deep interest in literature, philosophy, and the humanities. He read extensively, not only scientific literature but also works of literature and philosophy. His philosophical ponderings often influenced his scientific thinking.</li> <br>
-         
-        </ul> 
-      </div>
+ <div id="blogs">
+  <h2>Blogs</h2>
+    <ol>
+      <li>10 Essential Tools for Remote Work Productivity
 
-    <hr style="height: 8px;background: black;">
+        Description: Provide a list of essential tools and software for remote work success. Include project management apps, video conferencing tools, time tracking software, and collaboration platforms. Offer tips on how to maximize their efficiency.</li> <br> <br>
+      <li>The Future of Artificial Intelligence in Healthcare"
 
-  
-  <div id="photogallery">
-  <div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="einstein_lecture_photo.jpg">
-        <img src="images/einstein_lecture_photo.jpg" alt="Cinque Terre" width="600" height="400">
-      </a>
-      <div class="desc">Albert Einstein delivering his Nobel Lecture to the Nordic Assembly of Naturalists in Gothenburg, Sweden.</div>
-    </div>
-  </div>
-  
-  
-  <div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="solvay-conference.jpg">
-        <img src="images/solvay-conference.jpg" alt="Forest" width="600" height="400">
-      </a>
-      <div class="desc">The fifth Solvay International Conference on Electrons and Photons, was held in October 1927.</div>
-    </div>
-  </div>
-  
-  <div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="img_lights.jpg">
-        <img src="images/nernst-einstein.jpg" alt="Northern Lights" width="600" height="400">
-      </a>
-      <div class="desc">From left to right: Nobel Laureates Walther Nernst, Albert Einstein, Max Planck, Robert A. Millikan,at a dinner </div>
-    </div>
-  </div>
-  
-  <div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="img_mountains.jpg">
-        <img src="images/einstein 2.jpg" alt="Mountains" width="600" height="400">
-      </a>Three Nobel Laureates in Physics standing in front of the Athenaeum at California Institute of Technology (Caltech), 1931.</div>
-    </div>
+        Description: Explore how AI is revolutionizing the healthcare industry. Discuss topics like AI-driven diagnostics, drug discovery, and personalized treatment plans. Highlight real-world examples and the potential impact on patient care.</li>
+     
+    </ol> 
+
   </div>
   <hr style="height: 8px;background: black;">
-  <div id="blogs">
-    <h2>Blogs</h2>
-      <ol>
-        <li>
-  
-          Heuristic Viewpoint Concerning the Production and Transformation of Light (1905):In this groundbreaking paper, Einstein introduced the concept of quanta of light, now known as photons, and explained the photoelectric effect, earning him the Nobel Prize in Physics..</li> <br> <br>
-        <li>Electrodynamics of Moving Bodies (1905):
-
-          Commonly referred to as the Special Theory of Relativity paper, this work introduced the theory of relativity, including the famous equation E=mc².</li> <br> <br>
-          <li>
-            Motion of Small Particles Suspended in a Stationary Liquid, as Required by the Molecular Kinetic Theory of Heat (1905):
-
-Einste      in's explanation of Brownian motion provided strong evidence for the existence of atoms and molecules.
-          </li> <br> <br>
-          <li>
-            Generalized Theory of Gravitation (1915):
-
-Einstein's theory of general relativity, which explained gravity as the curvature of spacetime, was first presented in this paper.
-          </li>
-       
-      </ol> 
-  
-    </div>
-   
   </main>
   <footer id="social_icons">
     <img src="images/linked.png" alt="Click to visit us on linkedin" >
     <img src="images/github.png" alt="Click to visit us on github" >
     <img src="images/phone.png" alt="Click to visit us on phone" >
   </footer>
+
+</div>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
 </body>
 </html>
